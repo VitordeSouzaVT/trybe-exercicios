@@ -1,15 +1,64 @@
-h1, p{
+/* Faz com que as divs ganhem uma borda quando passamos o cursor por cima*/
+div:hover {
+    border: 5px solid red;
+}
+
+/* Faz com que cada div tenha sua própria cor de fundo*/
+div:nth-of-type(1) {
+    background-color: green;
+}
+
+div:nth-of-type(2) {
+    background-color: yellow;
+}
+
+div:nth-of-type(3) {
+    background-color: purple;
+}
+
+div:nth-of-type(4) {
+    background-color: grey;
+}
+
+div:nth-of-type(5) {
+    background-color: palegoldenrod;
+}
+
+/* Estiliza cada h3*/
+div:nth-of-type(1) > h3 {
+    color: grey;
+    font-size: 50px;
+}
+
+div:nth-of-type(2) > h3 {
     text-align: center;
 }
 
-li:hover {
-background-color: aquamarine;
+div:nth-of-type(3) > h3 {
+    font-size: 40px;
 }
 
-li:active {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+div:nth-of-type(4) > h3 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ol, ul {
-    list-style: none;
+div:nth-of-type(5) > h3 {
+    color: red;
+}
+/* Aumentar a div 3*/
+div:nth-of-type(3) {
+    height: 120px;
+}
+
+/* Deixa as tags ímpares h3 em itálico*/
+div:nth-of-type(1) > h3 {
+    font-style: italic;
+}
+
+div:nth-of-type(3) > h3 {
+    font-style: italic;
+}
+
+div:nth-of-type(5) > h3 {
+    font-style: italic;
 }
