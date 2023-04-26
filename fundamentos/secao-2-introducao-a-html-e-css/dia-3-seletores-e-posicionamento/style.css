@@ -38,7 +38,7 @@ font-weight: bolder;
 #aliados li a:hover {
     font-weight: bolder;
 }
-#aliados li a[href*="stackoverflow"] {
+.StackOverflow:hover{
     color: orange;
 }
 #aliados li a[href*="w3schools"] {
